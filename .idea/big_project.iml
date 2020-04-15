@@ -11,10 +11,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
-    <option name="requirementsPath" value="C:\Users\meeseeks\PycharmProjects\big_project\Pipfile" />
+    <option name="requirementsPath" value="$MODULE_DIR$/Pipfile.lock" />
   </component>
   <component name="TestRunnerService">
-    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>
 </module>
