@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../big_project">
+      <sourceFolder url="file://$MODULE_DIR$/subproject0/tests/subproject0" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../big_project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../big_project/src/subproject0/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Pipenv (big_project)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
