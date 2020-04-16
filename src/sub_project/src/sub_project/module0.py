@@ -1,7 +1,4 @@
-def func0():
-    print('sub_project:module1.py:func0')
-
-
 class Module0:
-    def __str__(self) -> str:
-        return 'sub_project:module1.py:Module0'
+
+    def func0(self) -> str:
+        return 'sub_project:module0.py:Module0:func0'

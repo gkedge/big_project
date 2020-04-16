@@ -1,6 +1,6 @@
-from .module0 import func0, Module0
-from .module1 import func0, Module1
+from .module0 import Module0
+from .utils import func0
 
 
-def init_func0():
-    print('sub0__init__.py')
+def init_func0() -> str:
+    return 'func0'
