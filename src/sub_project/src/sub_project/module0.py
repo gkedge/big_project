@@ -1,7 +1,7 @@
-def sub0_mod0_func0():
-    print('sub0_mod0_func0')
+def func0():
+    print('sub_project:module1.py:func0')
 
 
 class Module0:
     def __str__(self) -> str:
-        return 'subproject0_Module0'
+        return 'sub_project:module1.py:Module0'

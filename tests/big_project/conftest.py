@@ -15,8 +15,12 @@ for tested_src in ALL_PROJECT_SRC_DIRS:
         sys.path.append(str(tested_src))
 
 from sub_project.module0 import Module0
+
+# Import sub_project_test_support_fixture0 from the sub-project's fixtures made available to this test module via
+# the sub-project's 'src/sub_project_test_support' package. Ignore static checking that the import is not directly
+# referenced in this module.
 # noinspection PyUnresolvedReferences
-from sub_project_test_support.fixtures import sub0_module1_fixture
+from sub_project_test_support.fixtures import sub_project_test_support_fixture0
 
 
 @pytest.fixture

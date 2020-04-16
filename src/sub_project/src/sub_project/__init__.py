@@ -1,5 +1,5 @@
-from .module0 import sub0_mod0_func0, Module0
-from .module1 import sub0_mod1_func0
+from .module0 import func0, Module0
+from .module1 import func0, Module1
 
 
 def init_func0():

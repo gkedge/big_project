@@ -16,11 +16,14 @@ for tested_src in ALL_PROJECT_SRC_DIRS:
 
 from sub_project import Module0
 
+# Import sub_project_test_support_fixture0 from the sub-project's fixtures made available to this test module via
+# the sub-project's 'src/sub_project_test_support' package. Ignore static checking that the import is not directly
+# referenced in this module.
 # noinspection PyUnresolvedReferences
-from sub_project_test_support.fixtures import sub0_module1_fixture
+from sub_project_test_support.fixtures import sub_project_test_support_fixture0
 
 
 @pytest.fixture
-def sub0_module0_fixture() -> Module0:
-    print('sub0_module0_fixture')
+def sub_project_fixture0() -> Module0:
+    print('sub_project_fixture0')
     return Module0()

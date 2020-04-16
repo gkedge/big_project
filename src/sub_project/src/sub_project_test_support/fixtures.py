@@ -1,9 +1,9 @@
 import pytest
 
-from sub_project.module1 import Module1
+from sub_project import Module1
 
 
 @pytest.fixture
-def sub0_module1_fixture():
-    print('sub0_module1_fixture')
+def sub_project_test_support_fixture0() -> Module1:
+    print('sub_project_test_support_fixture0')
     return Module1()
