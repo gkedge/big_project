@@ -1,2 +1,2 @@
 def init_func0() -> str:
-    return 'init_func0'
+    return '__init__.py:init_func0'

@@ -1,10 +1,9 @@
-def func0():
-    return 'func0'
+import sub_project
 
 
 class Module0:
     def __str__(self) -> str:
-        return 'Module0'
+        return 'module0.py:Module0'
 
     def func0(self) -> str:
-        return 'func0'
+        return f'module0.py:func0 (with help from: {sub_project.util0()})'

@@ -1,6 +1,6 @@
-from big_project import module0
+from big_project.module0 import Module0
 
 
-def test_func0():
-    assert 'func0' == module0.func0()
+def test_func0(fixture0: Module0):
+    assert fixture0.func0() == 'module0.py:func0 (with help from: sub_project:utils.py:util0)'
 
