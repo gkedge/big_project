@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="test_mod0" type="PythonConfigurationType" factoryName="Python">
+  <configuration default="false" name="tests/big_project/test_module0" type="PythonConfigurationType" factoryName="Python" singleton="false">
     <module name="big_project" />
     <option name="INTERPRETER_OPTIONS" value="-m pytest" />
     <option name="PARENT_ENVS" value="true" />
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/big_project/test_module0.py" />
-    <option name="PARAMETERS" value="-sv" />
+    <option name="PARAMETERS" value="" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="all python tests" type="CompoundRunConfigurationType">
+    <toRun name="sub_project tests" type="PythonConfigurationType" />
+    <toRun name="sub_project tests (rooted to sub_project)" type="PythonConfigurationType" />
+    <toRun name="sub_project/tests/sub_project" type="PythonConfigurationType" />
+    <toRun name="sub_project/tests/sub_project (rooted to sub_project)" type="PythonConfigurationType" />
+    <toRun name="sub_project/tests/sub_project_test_support" type="PythonConfigurationType" />
+    <toRun name="sub_project/tests/sub_project_test_support (rooted to sub_project)" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
