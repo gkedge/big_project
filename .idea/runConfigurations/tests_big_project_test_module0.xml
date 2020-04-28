@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="tests/big_project/test_module0" type="PythonConfigurationType" factoryName="Python" singleton="false">
     <module name="big_project" />
-    <option name="INTERPRETER_OPTIONS" value="-m pytest" />
+    <option name="INTERPRETER_OPTIONS" value="-m pytest -sv" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />

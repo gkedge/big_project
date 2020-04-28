@@ -1,4 +1,8 @@
+from runtime_syspath import print_sorted_syspath
+
 from module0_for_testing import Module0ForTesting
+
+print_sorted_syspath()
 
 
 def test_func0():

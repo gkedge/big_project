@@ -1,5 +1,9 @@
+from runtime_syspath import print_sorted_syspath
+
 from sub_project.module1 import Module1
 from sub_project_test_support import tests_utils
+
+print_sorted_syspath()
 
 
 def test_sub_project_test_support_test_utils_util0():
