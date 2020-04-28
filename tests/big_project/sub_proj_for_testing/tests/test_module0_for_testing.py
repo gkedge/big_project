@@ -1,8 +1,11 @@
-from runtime_syspath import print_sorted_syspath
+import re
+
+from runtime_syspath import print_syspath, init_std_syspath_filter
 
 from module0_for_testing import Module0ForTesting
 
-print_sorted_syspath()
+init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|Cache|v\w*env)'))
+print_syspath(sort=False)
 
 
 def test_func0():

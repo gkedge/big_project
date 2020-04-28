@@ -1,10 +1,14 @@
-from runtime_syspath import add_srcdirs_to_syspath, print_sorted_syspath
+import re
+
+from runtime_syspath import add_srcdirs_to_syspath, print_syspath, init_std_syspath_filter
 import big_project
 from big_project import Module0
 
 add_srcdirs_to_syspath()
 
-print_sorted_syspath()
+init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|Cache|v\w*env)'))
+
+print_syspath(sort=False)
 
 print("Execute the Big Project.")
 
