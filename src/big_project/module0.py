@@ -2,6 +2,7 @@ from . import utils
 
 import sub_project
 
+
 class Module0:
     def __str__(self) -> str:
         return 'module0.py:Module0'
