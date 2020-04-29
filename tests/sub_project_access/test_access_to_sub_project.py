@@ -5,7 +5,7 @@ from runtime_syspath import print_syspath, init_std_syspath_filter
 from sub_project.module1 import Module1
 from sub_project_test_support import tests_utils
 
-init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|Cache|v\w*env)'))
+init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|v\w*env)'))
 
 print_syspath(sort=False)
 

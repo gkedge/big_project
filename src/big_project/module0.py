@@ -1,6 +1,5 @@
-from . import utils
-
 import sub_project
+from . import utils
 
 
 class Module0:

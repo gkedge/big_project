@@ -3,8 +3,7 @@ import re
 from runtime_syspath import add_srcdirs_to_syspath, print_syspath, init_std_syspath_filter
 
 add_srcdirs_to_syspath()
-init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|Cache|v\w*env)'))
-
+init_std_syspath_filter(re.compile(r'([Pp]ython|PyCharm|v\w*env)'))
 print_syspath(sort=False)
 
 # Import sub_project_test_support_fixture0 from the sub-project's fixtures made available to this test module via
