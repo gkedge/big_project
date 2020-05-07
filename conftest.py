@@ -1,6 +1,6 @@
 import pytest
 
-from big_project.module0 import Module0
+from module0 import Module0
 
 
 @pytest.fixture
