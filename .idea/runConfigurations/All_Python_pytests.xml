@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Python pytests" type="CompoundRunConfigurationType">
+    <toRun name="sub_project tests" type="PythonConfigurationType" />
+    <toRun name="tests/big_project" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
