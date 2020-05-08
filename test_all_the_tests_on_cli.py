@@ -12,8 +12,11 @@ class TestType(Enum):
 
 
 def _run_pytest(test_type: TestType, test_module_or_directory: str) -> subprocess.Popen:
-    command: List[str] = ['pytest'] if test_type == TestType.PYTEST else \
-        ['python', '-m', 'pytest']
+    if test_type == TestType.PYTEST:
+        command = ['pytest']
+    else:
+        command = ['python', '-m', 'pytest']
+
     command.append(test_module_or_directory)
     return subprocess.Popen(command, stdin=subprocess.PIPE,
                             stdout=subprocess.PIPE,
