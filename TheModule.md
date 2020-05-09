@@ -19,6 +19,7 @@ Developers can run pytests in two different ways:
 
 Their primary difference lies with the fact that calling via `python -p pytest` **will** add the current directory to `sys.path` in addition to the directory location of the `test_script.py`.
 
+
 For the case of [The Module] demo with both module and test being in the same directory, there is no difference. But, I want to make sure through each demo that follows, both ways to start a `pytest` work. So, all the tests that are added for these demos will be run sequentially using both command patterns via \[test_all_the_tests_on_cli.py] \[run `test_all_the_tests_on_cli.py`]
 
 [The Module]: #the-module
