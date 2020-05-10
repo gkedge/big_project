@@ -1,4 +1,4 @@
-from big_project.module0 import Module0
+from module0 import Module0
 
 print("Execute the Big Project.")
 
