@@ -1,4 +1,4 @@
-from module0 import Module0
+from big_project.module0 import Module0
 
 
 def test_func0(fixture0: Module0):
