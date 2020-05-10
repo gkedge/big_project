@@ -1,18 +1,18 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="tests/big_project/test_module0" type="PythonConfigurationType" factoryName="Python" singleton="false">
+  <configuration default="false" name="test_package" type="PythonConfigurationType" factoryName="Python" singleton="false">
     <module name="big_project" />
-    <option name="INTERPRETER_OPTIONS" value="-m pytest -sv" />
+    <option name="INTERPRETER_OPTIONS" value="-m pytest" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
     </envs>
-    <option name="SDK_HOME" value="" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-    <option name="IS_MODULE_SDK" value="true" />
+    <option name="SDK_HOME" value="$USER_HOME$/.local/share/virtualenvs/big_project-YToMqCnm/bin/python" />
+    <option name="WORKING_DIRECTORY" value="" />
+    <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="false" />
     <option name="ADD_SOURCE_ROOTS" value="false" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/big_project/test_module0.py" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_package.py" />
     <option name="PARAMETERS" value="" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />

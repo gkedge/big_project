@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="All Python tests" type="CompoundRunConfigurationType">
     <toRun name="big_project_main" type="PythonConfigurationType" />
-    <toRun name="test_all_the_tests_on_cli" type="PythonConfigurationType" />
+    <toRun name="test_package" type="PythonConfigurationType" />
     <toRun name="test_big_project_main" type="PythonConfigurationType" />
-    <toRun name="tests/big_project/test_module0" type="PythonConfigurationType" />
+    <toRun name="test_all_the_tests_on_cli" type="PythonConfigurationType" />
     <method v="2" />
   </configuration>
 </component>
