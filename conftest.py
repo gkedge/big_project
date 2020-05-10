@@ -1,7 +1,7 @@
 import pytest
 from runtime_syspath import print_syspath
 
-from module0 import Module0
+from big_project.module0 import Module0
 
 print_syspath(sort=False)
 
